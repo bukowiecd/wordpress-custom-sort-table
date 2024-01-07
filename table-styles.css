@@ -1,0 +1,58 @@
+.desc-sort, .asc-sort {
+	display: none;
+	width: 10px;
+}
+
+.filler-sort{
+	display: block;
+	width: 10px;
+	float: right;
+}
+
+.asc-header.sort-primary .asc-sort{
+	display: block;
+	width: 10px;
+	float: right;
+}
+
+.desc-header.sort-primary .desc-sort{
+	display: block;
+	width: 10px;
+	float: right;
+}
+
+.desc-header.sort-primary .filler-sort{
+	display: none;
+	width: 10px;
+	float: right;
+}
+
+.asc-header.sort-primary .filler-sort{
+	display: none;
+	width: 10px;
+	float: right;
+}
+
+.asc-header:hover .asc-sort{
+	display: block;
+	width: 10px;
+	float: right;
+}
+
+.desc-header:hover .desc-sort{
+	display: block;
+	width: 10px;
+	float: right;
+}
+
+.asc-header:hover .filler-sort{
+	display: none;
+	width: 10px;
+	float: right;
+}
+
+.desc-header:hover .filler-sort{
+	display: none;
+	width: 10px;
+	float: right;
+}
